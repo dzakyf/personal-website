@@ -6,7 +6,7 @@ class Projects extends HTMLElement{
             <p class="title">Projects.</p>
             <div class="project-card-list">
                 <div class="card">
-                    <a href="/ebisu.html"><p class="card-title">Ebisu</p>
+                    <a href="ebisu/"><p class="card-title">Ebisu</p>
                     <p class="card-description">Japanese food and beverage ordering website</p></a>
                 </div>
                 <div class="card">
@@ -14,11 +14,11 @@ class Projects extends HTMLElement{
                     <p class="card-description">Village governance management system</p>
                 </div>
                 <div class="card">
-                    <a href="/gadamaxima.html" target="_blank"><p class="card-title">Gadamaxima</p>
+                    <a href="gadamaxima/" target="_blank"><p class="card-title">Gadamaxima</p>
                     <p class="card-description">Security guard tracking management system</p></a>
                 </div>
                 <div class="card">
-                    <a href="/socmedpay.html"><p class="card-title">SocmedPay</p>
+                    <a href="socmedpay/"><p class="card-title">SocmedPay</p>
                     <p class="card-description">Social media payment platform with e-money integration</p>
                     </a>
                 </div>
