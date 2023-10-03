@@ -14,7 +14,7 @@ class Projects extends HTMLElement{
                     <p class="card-description">Village governance management system</p>
                 </div>
                 <div class="card">
-                    <a href="gadamaxima/" target="_blank"><p class="card-title">Gadamaxima</p>
+                    <a href="gadamaxima/"><p class="card-title">Gadamaxima</p>
                     <p class="card-description">Security guard tracking management system</p></a>
                 </div>
                 <div class="card">
