@@ -34,7 +34,7 @@ a:link, a:visited {
 
 
 .ebisu-container{
-  height: 60em;
+  /* height: 60em; */
   display : grid;
   grid-template-columns: auto auto auto auto;
   row-gap : 1em;
@@ -61,6 +61,16 @@ a:link, a:visited {
 .card-with-image{
   display: flex;
   justify-content: center;
+  height: 200px;
+  max-height: 300px;
+  box-shadow: 0.05rem 0.1rem 0.3rem -0.03rem rgba(0, 0, 0, 0.45);
+
+}
+
+.card-with-image img{
+  object-fit: cover;
+  width: 100%;
+  height: max(100%, 8vh);
 }
 
 .card-title {
@@ -68,9 +78,6 @@ a:link, a:visited {
   text-decoration: none;
 } 
 
-.card-description{
-
-}
 
 .card:hover{ 
   /* outline-color: linear-gradient(90deg, hsla(197, 100%, 63%, 1) 0%, hsla(294, 100%, 55%, 1) 100%);;
@@ -217,9 +224,6 @@ a:link, a:visited {
   }
 }
 
-@media screen and () and (){
-
-}
 
 .contact-title{
   font-size: var(--title-font);
@@ -262,7 +266,7 @@ nav{
   filter: drop-shadow(0 0 2em #646cffaa);
 }
 .logo.vanilla:hover {
-  filter: drop-shadow(0 0 2em #3/178c6aa);
+  filter: drop-shadow(0 0 2em #3178c6aa);
 } 
 
 
