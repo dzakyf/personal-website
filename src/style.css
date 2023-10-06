@@ -1,5 +1,5 @@
 :root{
-  --title-font : 64px;
+  --title-font : 4vw;
   --card-title-font: 20px;
 }
 
@@ -30,18 +30,11 @@ a:link, a:visited {
   width: auto;
 }
 
-.card {
-  width: 20em;
-  height: 9em;
-  background-color:rgb(10, 35, 59);
-  color: rgb(255,255,255);
-  border-radius: 8px;
-  outline-color: rgb(0,0,0);
-  outline-style: solid;
-  padding: 1em 1em 1em 1em;
-}
+
+
 
 .ebisu-container{
+  height: 60em;
   display : grid;
   grid-template-columns: auto auto auto auto;
   row-gap : 1em;
@@ -53,10 +46,21 @@ a:link, a:visited {
   position: absolute;
 }
 
+.card {
+  width: 400px;
+  max-width: 20em;
+  height: 9em;
+  background-color:rgb(10, 35, 59);
+  color: rgb(255,255,255);
+  border-radius: 8px;
+  outline-color: rgb(0,0,0);
+  outline-style: solid;
+  padding: 1em 1em 1em 1em;
+}
+
 .card-with-image{
   display: flex;
   justify-content: center;
-  align-items: center;
 }
 
 .card-title {
@@ -161,11 +165,60 @@ a:link, a:visited {
 
 .project-card-list{
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  grid-template-rows: 200px;
+  grid-template-columns: repeat(3, 1fr);
   justify-items: center;
   align-items: center;
-     
+  gap: 1em  
+}
+
+@media screen and (min-width: 0px) and (max-width: 576px) {
+  .title{
+    font-size: 32px;
+  }
+
+  .content-callout{
+    font-size: 32px;
+  }
+  .project-card-list{
+    grid-template-columns: repeat(1, 1fr);
+    gap: 1em;
+  }
+  .navbar .nav-button{
+    display: none;
+  }
+  .accent{
+    display: none;
+  }
+
+  .ebisu-container{
+    display : grid;
+    grid-template-columns: repeat(1, 1fr);
+    row-gap : 1em;
+    column-gap: 1em;
+    justify-content: center;
+    justify-items: center;
+    left: 10%;
+    right: 10%;
+    position: absolute;
+  }
+
+  .card-with-image img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 300px;
+  }
+}
+
+@media screen and (min-width: 576px) and (max-width: 768px){
+  .project-card-list{
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1em;
+  }
+}
+
+@media screen and () and (){
+
 }
 
 .contact-title{
@@ -209,8 +262,9 @@ nav{
   filter: drop-shadow(0 0 2em #646cffaa);
 }
 .logo.vanilla:hover {
-  filter: drop-shadow(0 0 2em #3178c6aa);
+  filter: drop-shadow(0 0 2em #3/178c6aa);
 } 
+
 
 @media (prefers-color-scheme: light) {
   :root {

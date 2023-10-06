@@ -8,7 +8,8 @@ class Content extends HTMLElement{
                 <img src="${accent}" class="accent"></img>
                 <div class="rectangle"></div>
                 <div class="content-text">
-                    <p class="content-callout"><span style="font-size:40px;">I'm a</span> <br/>software <br/> engineer.</p>
+                    <p class="content-callout"><span style="font-size:40px;">I'm a</span> <br/></p>
+                    <p class="content-callout">Software engineer;</p>
                     <p>Hello! my name is dzaky. A developer based in Indonesia. <br/>For 2 years I've helped companies build frontend for their needs. </p>
                 </div>
             </div>

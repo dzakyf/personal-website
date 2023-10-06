@@ -7,16 +7,16 @@ class Navbar extends HTMLElement{
     connectedCallback(){
         this.innerHTML= `
         <nav>
-        <a href="#projects">
-            <div class="nav-button">
-                <p>Projects</p>
-            </div>
-        </a>
-        <a href="#contact">
-            <div class="nav-button">
-                <p>Contact</p>
-            </div>
-        </a>
+            <a href="#projects">
+                <div class="nav-button">
+                    <p>Projects</p>
+                </div>
+            </a>
+            <a href="#contact">
+                <div class="nav-button">
+                    <p>Contact</p>
+                </div>
+            </a>
             <div class="nav-button">
             <a href="https://github.com/dzakyf" target="_blank">
                 <img src="${githubLogo}" class="nav-icon logo" alt="Github logo" />
