@@ -11,7 +11,7 @@ class Projects extends HTMLElement{
                 </div>
                 <div class="card">
                     <p class="card-title">SIMDES</p>
-                    <p class="card-description">Village governance management system</p>
+                    <p class="card-description">Local residence management system</p>
                 </div>
                 <div class="card">
                     <a href="gadamaxima/"><p class="card-title">Gadamaxima</p>
@@ -23,9 +23,16 @@ class Projects extends HTMLElement{
                     </a>
                 </div>
                 <div class="card">
-                    <a href="https://github.com/dzakyf/mini-project" target="_blank"><p class="card-title">Personal Projects</p>
-                    <p class="card-description">Collection of my personal projects</p></a>
+                    <a href="https://github.com/dzakyf/file-renamer"><p class="card-title">File renamer</p>
+                    <p class="card-description">Rename all content inside folder</p>
+                    </a>
                 </div>
+                 <div class="card">
+                    <a href="https://github.com/dzakyf" target="_blank"><p class="card-title">Personal projects</p>
+                    <p class="card-description">Collection of personal projects.</p>
+                    </a>
+                </div>
+
             </div>
         </div>
         `
